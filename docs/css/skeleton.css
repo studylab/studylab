@@ -23,6 +23,7 @@
 - Utilities
 - Clearing
 - Media Queries
+- StudyLab specifics
 */
 
 
@@ -157,10 +158,15 @@ p {
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+//a {
+//  color: #1EAEDB; }
+//a:hover {
+//  color: #0FA0CE; }
+
 a {
-  color: #1EAEDB; }
+  color: #FB8E1E; }
 a:hover {
-  color: #0FA0CE; }
+  color: #EE800F; }
 
 
 /* Buttons
@@ -206,8 +212,10 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  //background-color: #33C3F0;
+  //border-color: #33C3F0;
+  background-color: #A05322 ;
+  border-color: #A05322; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -219,8 +227,10 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  //background-color: #1EAEDB;
+  //border-color: #1EAEDB;
+  background-color: #C05322 ;
+  border-color: #C05322 ; }
 
 
 /* Forms
@@ -236,8 +246,8 @@ textarea,
 select {
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
+  background-color: #222222;
+  border: 1px solid #919191;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
@@ -288,7 +298,7 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: circle inside; }
+  list-style: square inside; }
 ol {
   list-style: decimal inside; }
 ol, ul {
@@ -301,7 +311,8 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+  //margin-bottom: 1rem; 
+  }
 
 
 /* Code
@@ -309,10 +320,12 @@ li {
 code {
   padding: .2rem .5rem;
   margin: 0 .2rem;
-  font-size: 90%;
+  font-size: 70%;
   white-space: nowrap;
-  background: #F1F1F1;
-  border: 1px solid #E1E1E1;
+  //background: #F1F1F1;
+  background: #111111;
+  //border: 1px solid #919191;
+  border: 1px solid #212121;
   border-radius: 4px; }
 pre > code {
   display: block;
@@ -416,3 +429,83 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
+
+/* StudyLab specifics
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.logo {
+  color : #ff4411 ;
+  //color: #f6b26b ;
+  //color: #ff9944 ;
+  font-style: italic ;
+  //font-weight: bold ;
+}
+
+body {
+  color : f9cb9c;
+  //color : #FF9966;
+  //color : #FFAA55;
+  //background-color : #222222;
+  background-color : #111111;
+}
+
+#car_beverly_1900 {
+  //width : 600px;
+  width : 100%;
+}
+
+#about_pic {
+  //width : 600px;
+  width : 80%;
+}
+
+.front_page_pic {
+  //width : 600px;
+  width : 100%;
+}
+
+
+// Good nav bar tips:
+// http://www.w3schools.com/css/css_navbar.asp
+
+ul.main_navbar {
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+ul.main_navbar li {
+  list-style: none;
+  background-color: #000000;
+}
+
+ul.main_navbar li a {
+  display: block;
+  color: #DD88DD;
+  text-align: center;
+  padding: 8px;
+  //padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.main_navbar li a:hover {
+  background-color: #444444;
+}
+
+ul.main_navbar li a.active {
+  background-color: #333333;
+}
+
+#about {
+  //float: right;
+}
+
+.notes {
+  font-size: 70% ;
+  font-style : italic ;
+  color : 993300 ;
+}
