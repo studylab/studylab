@@ -127,7 +127,8 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   //color: #222;
-  color : f9cb9c;
+  color : #F9CB9C ;
+  background-color : #000000;
 }
 
 
@@ -438,24 +439,24 @@ there.
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .logo {
-  color : #ff4411 ;
+  color : #F05511 ;
   //color: #f6b26b ;
   //color: #ff9944 ;
   font-style: italic ;
   //font-weight: bold ;
 }
 
-body {
-  color : f9cb9c;
-  //color : #FF9966;
-  //color : #FFAA55;
-  //background-color : #222222;
-  background-color : #111111;
-}
+//body {
+//  color : #F9CB9C ;
+//  //color : #FF9966;
+//  //color : #FFAA55;
+//  //background-color : #222222;
+//  background-color : #000000;
+//}
 
 #car_beverly_1900 {
   //width : 600px;
-  width : 100%;
+  width : 80%;
 }
 
 #about_pic {
