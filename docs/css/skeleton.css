@@ -127,6 +127,7 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   //color: #222;
+  color : f9cb9c;
 }
 
 
@@ -508,5 +509,5 @@ ul.main_navbar li a.active {
 .notes {
   font-size: 70% ;
   font-style : italic ;
-  color : 993300 ;
+  color : #993300 ;
 }
